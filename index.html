@@ -26,8 +26,8 @@
     <div class="green_top">
 
     </div>
-    <div id="app">
-      <div class="contacts">
+    <div id="app" class="d-flex">
+      <div class="contacts mb-5">
 
         <div class="profile d-flex justify-content-between">
             <div class="username">
@@ -52,7 +52,7 @@
         </div>
 
         <div class="search">
-            <input type="text" value="Cerca o inizia una nuova chat">
+            <input type="text" placeholder="Cerca o inizia una nuova chat">
         </div>
 
         <div class="contatti">
@@ -67,10 +67,52 @@
             </div>
         </div>
        </div>
-    </div>
+       
+       <div class="chat mb-5">
+           <div class="chat_contact d-flex justify-content-between align-items-center">
+            <div class="info_chat d-flex">
+            <img src="./assets/img/avatar_1.jpg" alt="">
+            <div class="chat_text">
+                <div class="chat_name">Michele</div>
+                <div class="chat_accesso">Ultimo accesso oggi alle 12:00</div>
+            </div>
+            </div>
+             
+            <div class="menu_chat">
+             <i class="fa-solid fa-magnifying-glass"></i>
+             <i class="fa-solid fa-paperclip"></i>
+             <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+           </div>
 
-      <div class="chat"></div>
-     </div>
+           <div class="chat_message">
+              
+            <div class="message send">
+                Hai portato a spasso il cane?
+                <div class="ora">15:30</div>
+              </div>
+
+              <div class="message send">
+                Ricordati di stendere i panni
+                <div class="ora">15:50</div>
+
+              </div>
+              
+              <div class="message recive">
+                 Tutto fatto!
+                 <div class="ora">16:15</div>
+
+              </div>
+            </div>
+
+           <div class="chat_send_message d-flex justify-content-between align-items-center">
+            <i class="fa-regular fa-face-smile"></i>
+            <input type="text" placeholder="Scrivi un messaggio">
+            <i class="fa-solid fa-microphone"></i>
+           </div>
+       </div>
+    </div>
+   
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="./assets/js/main.js"></script>
 

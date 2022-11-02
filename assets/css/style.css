@@ -47,6 +47,11 @@ body{
 
 }
 
+.profile_menu{
+    display: flex;
+    align-items: center;
+}
+
 .icona_notifiche i{
     color: #8edafc;
     background-color: white;
@@ -112,4 +117,95 @@ body{
     margin-left: 1rem;
 }
 
+.chat{
+    background-image:url(../img/mine.jpg);
+    width: 80%;
+    position: relative;
+    
 
+}
+
+.chat_contact{
+    background-color: #eaeaea;
+    padding: 0.7rem 1rem;
+    display: flex;
+    border-left: 1px solid #d8dbd6;
+    
+}
+
+.chat_contact img{
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.chat_name{
+    font-weight: 500;
+}
+
+.chat_accesso{
+    font-size: 0.75rem;
+    color: #909090;
+}
+
+.menu_chat i{
+    color: #b1b1b1;
+    padding-left: 1rem;
+}
+
+.chat_send_message{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #f3eeea;
+    padding: 0.75rem 2rem;
+    display: flex;
+    width: 100%;
+}
+
+.chat_send_message input{
+    width: 80%;
+    border: 0;
+    padding: 0.5rem 1rem;
+    color: #6b7376;
+}
+
+.chat_send_message i{
+    color: #6b7376;
+    font-size: 1.5rem;
+}
+
+.message{
+    padding: 1rem 2rem;
+    position: relative;
+    width: 40%;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+  
+}
+
+.chat_message{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    padding-right: 3rem;
+}
+
+.ora{
+    position: absolute;
+    right: 0.5rem;
+    color: #6b7376;
+    font-size: 0.6rem;
+}
+
+.send{
+    background-color:#d5f9ba ;
+   
+}
+
+.recive{
+    background-color: white;
+    position: absolute;
+    left: 2rem;
+    top: 14rem;
+}
