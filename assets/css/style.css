@@ -24,12 +24,15 @@ body{
 
 .contacts{
     width: 40%;
+    height: 120vh;
+
 }
 
 .profile{
     
     background-color: #eaeaea;
     padding: 0.75rem 1rem;
+    
 }
 
 .profile img{
@@ -104,12 +107,13 @@ body{
     background-color: white;
     padding: 0.5rem;
     border-top: 1px solid #d8dbd6;
+    position: relative;
 
 }
 
 .contatti{
     background-color: white;
-    height: 80vh;
+    height: 39.5rem;
 }
 
 .contact_name{
@@ -117,10 +121,17 @@ body{
     margin-left: 1rem;
 }
 
+.contact_message{
+    margin-left: 1rem;
+    font-size: 0.75rem;
+    color: #6b7376;
+}
+
 .chat{
     background-image:url(../img/mine.jpg);
     width: 80%;
     position: relative;
+    height: 50rem;
     
 
 }
@@ -208,4 +219,10 @@ body{
     position: absolute;
     left: 2rem;
     top: 14rem;
+}
+
+.contact_time{
+    font-size: 0.5rem;
+    position: absolute;
+    right: 1rem;
 }
