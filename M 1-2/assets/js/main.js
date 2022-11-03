@@ -5,6 +5,8 @@ const {
 createApp({
     data(){
         return{
+            activeMessage: 0,
+
             contacts: [
                 {
                     name: 'Michele',
@@ -169,16 +171,13 @@ createApp({
                 },
                 
             ],
-        
-            activeIndex: 0,
-            methods: {
-                setActiveIndex(index){
-                    this.activeIndex = index;
-                    console.log(activeIndex);
-                }
-            } 
             
         }    
-    },
+    }, 
+     methods: {
+        changeChat(index){
+            this.activeMessage = index
+        }
+    }
     
 }).mount('#app')
