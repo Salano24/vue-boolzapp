@@ -102,8 +102,8 @@
 
            <div class="chat_send_message d-flex justify-content-between align-items-center">
             <i class="fa-regular fa-face-smile"></i>
-            <input type="text" placeholder="Scrivi un messaggio">
-            <i class="fa-solid fa-microphone"></i>
+            <input type="text" class="write_input form-control m-2" placeholder="Scrivi un messaggio" v-model="newMessage" @keyup.enter="createMessage(activeMessage)">            <i class="fa-solid fa-microphone"></i>
+            
            </div>
        </div>
     </div>

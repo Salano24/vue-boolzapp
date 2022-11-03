@@ -228,3 +228,8 @@ body{
 .message small{
     font-size: 0.6rem;
 }
+
+button{
+    height: 50px;
+    width: 50px;
+}
