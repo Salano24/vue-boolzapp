@@ -174,6 +174,7 @@ createApp({
             methods: {
                 setActiveIndex(index){
                     this.activeIndex = index;
+                    console.log(activeIndex);
                 }
             } 
             
