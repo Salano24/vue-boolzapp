@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d8dbd6;
+    position: relative;
+}
+
+.green_top{
+    background-color:#009688 ;
+    height:6rem;
+    width: 100vw;
+}
+
+#app{
+    width: 80%;
+    position: absolute;
+    top: 1rem;
+    left: 10vw;
+}
+
+.contacts{
+    width: 40%;
+    height: 120vh;
+
+}
+
+.profile{
+    
+    background-color: #eaeaea;
+    padding: 0.75rem 1rem;
+    
+}
+
+.profile img{
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.profile i{
+  color: #b1b1b1;
+  padding-left: 1rem;
+}
+
+.profile_name{
+    font-weight: 500;
+
+}
+
+.profile_menu{
+    display: flex;
+    align-items: center;
+}
+
+.icona_notifiche i{
+    color: #8edafc;
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.75rem;
+    margin-right: 0.5rem;
+}
+
+.icona_notifiche{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.notifiche{
+    background-color: #8edafc;
+    padding: 0.5rem 1rem;
+
+}
+
+.notifiche span{
+    font-weight: 500;
+    font-size: 0.75rem;
+
+
+}
+.notifiche a{
+    font-size: 0.75rem;
+    color: #909090;
+}
+
+.search{
+    background-color: #e5e5e5;
+    padding: 0.3rem;
+}
+
+.search input{
+    border: 0;
+    width: 100%;
+    padding: 0.2rem 2rem;
+    color: #909090;
+}
+
+.contact_image{
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.contatto{
+    background-color: white;
+    padding: 0.5rem;
+    border-top: 1px solid #d8dbd6;
+    position: relative;
+
+}
+
+.contatti{
+    background-color: white;
+    height: 39.5rem;
+}
+
+.contact_name{
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+.contact_message{
+    margin-left: 1rem;
+    font-size: 0.75rem;
+    color: #6b7376;
+}
+
+.chat{
+    background-image:url(../img/mine.jpg);
+    width: 80%;
+    position: relative;
+    height: 50rem;
+    
+
+}
+
+.chat_contact{
+    background-color: #eaeaea;
+    padding: 0.7rem 1rem;
+    display: flex;
+    border-left: 1px solid #d8dbd6;
+    
+}
+
+.chat_contact img{
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.chat_name{
+    font-weight: 500;
+}
+
+.chat_accesso{
+    font-size: 0.75rem;
+    color: #909090;
+}
+
+.menu_chat i{
+    color: #b1b1b1;
+    padding-left: 1rem;
+}
+
+.chat_send_message{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #f3eeea;
+    padding: 0.75rem 2rem;
+    display: flex;
+    width: 100%;
+}
+
+.chat_send_message input{
+    width: 80%;
+    border: 0;
+    padding: 0.5rem 1rem;
+    color: #6b7376;
+}
+
+.chat_send_message i{
+    color: #6b7376;
+    font-size: 1.5rem;
+}
+
+
+.chat_message{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding-right: 3rem;
+}
+
+.ora{
+    position: absolute;
+    right: 0.5rem;
+    color: #6b7376;
+    font-size: 0.6rem;
+}
+
+.chat_received{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.message{
+    width: 312px;
+    background-color: #d5f9ba;
+    
+
+    
+}
+.received{
+    background-color: white;
+   
+}
+
+
+
+.contact_time{
+    font-size: 0.5rem;
+    position: absolute;
+    right: 1rem;
+}
+
+.message small{
+    font-size: 0.6rem;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+}
